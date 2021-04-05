@@ -18,7 +18,7 @@ class DatabaseHandler:
 
     def print_recipes(self):
         for recipe in self.recipes:
-            print("nume = {}, ingredient = {}".format(recipe["nume"], recipe["nume"]))
+            print("nume = {}, ingredient = {}".format(recipe["nume"], recipe["ingredient"]))
 
     def read_last_days(self):
         pass
