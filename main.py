@@ -9,6 +9,7 @@ def main(argv):
     print("path = " + argv[1])
     database = database_handler.DatabaseHandler(argv[1])
     database.read_recipes()
+    database.print_recipes()
    
     
 
