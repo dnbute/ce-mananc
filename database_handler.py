@@ -37,7 +37,8 @@ class DatabaseHandler:
     
     def remove_eaten_recipes(self):
         for eaten_recipe in self.last_days:
-            self.recipes.remove(eaten_recipe)
+            self.recipes = [recipe for recipe in self.recipes if not(recipe["ingredient"] == eaten_recipe["ingredient"])]
+            
 
     def write_chosen_recipe(self):
         path_name = os.path.join(os.getcwd(), self.path_last_days)
