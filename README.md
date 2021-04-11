@@ -4,6 +4,6 @@
     - Fac un program sa-mi aleaga ce mananc ziua urmatoare
 ## Planul
     - [x] Citeste mancaruri si ingredientul principal
-    - [ ] Tine minte ce am mancat in ultimele `n` zile
-    - [ ] Alege o mancare care sa nu aiba acelasi ingredient principal
+    - [x] Tine minte ce am mancat in ultimele `n` zile
+    - [x] Alege o mancare care sa nu aiba acelasi ingredient principal
     - [ ] Ma mai gandesc
