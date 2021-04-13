@@ -6,4 +6,5 @@
     - [x] Citeste mancaruri si ingredientul principal
     - [x] Tine minte ce am mancat in ultimele `n` zile
     - [x] Alege o mancare care sa nu aiba acelasi ingredient principal
+    - [ ] Interfata grafica
     - [ ] Ma mai gandesc
